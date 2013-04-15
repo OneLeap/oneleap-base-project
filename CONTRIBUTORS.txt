@@ -1,3 +1,5 @@
+Alex Lovell-Troy / @alexlovelltroy
+Based on work from:
 Audrey Roy / @audreyr
 Daniel Greenfeld / @pydanny
 Juan Riaza

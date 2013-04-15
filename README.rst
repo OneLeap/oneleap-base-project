@@ -1,5 +1,5 @@
 ========================
-django-twoscoops-project
+django-oneleap-project
 ========================
 
 A project template for Django 1.5.
@@ -8,7 +8,7 @@ To use this project follow these steps:
 
 #. Create your working environment
 #. Install Django
-#. Create the new project using the django-two-scoops template
+#. Create the new project using the oneleap-base template
 #. Install additional dependencies
 #. Use the Django admin to create the project
 
@@ -75,9 +75,9 @@ Creating your project
 =====================
 
 To create a new Django project called '**icecream**' using
-django-twoscoops-project, run the following command::
+oneleap-base-project, run the following command::
 
-    $ django-admin.py startproject --template=https://github.com/twoscoops/django-twoscoops-project/zipball/master --extension=py,rst,html icecream
+    $ django-admin.py startproject --template=https://github.com/oneleap/oneleap-base-project/zipball/master --extension=py,rst,html icecream
 
 Installation of Dependencies
 =============================
@@ -98,7 +98,7 @@ Services expect a requirements.txt file in the root of projects.*
 Acknowledgements
 ================
 
-    - Many thanks to Randall Degges for the inspiration to write the book and django-skel.
+    - Many thanks to the authors of the twoscoops book and django-skel.
     - All of the contributors_ to this project.
 
-.. _contributors: https://github.com/twoscoops/django-twoscoops-project/blob/master/CONTRIBUTORS.txt
+.. _contributors: https://github.com/oneleap/oneleap-base-project/blob/master/CONTRIBUTORS.txt

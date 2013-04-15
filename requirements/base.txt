@@ -3,4 +3,43 @@ bpython==0.12
 django-braces==0.2.1
 django-model-utils==1.1.0
 logutils==0.3.3
+django-extensions
+pytz
 South==0.7.6
+
+# App specific options
+
+# Celery
+django-celery
+
+# Storages
+django-storages
+boto
+
+# Mail
+django-mailer
+django-ses
+
+# Backbone
+backbone-tastypie
+django-tastypie
+-e git+https://github.com/PaulUithol/backbone-tastypie.git@master#egg=django-backbone-tastypie
+django-jstemplates
+
+# Haystack
+-e git+https://github.com/toastdriven/django-haystack.git@master#egg=django-haystack
+
+# Tagging
+django-taggit
+
+# Authentication
+django-browserid
+django-registration
+django-social-auth
+
+
+# Payment
+django-stripe-payments
+
+# Caching
+python-memcached
