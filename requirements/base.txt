@@ -21,10 +21,9 @@ django-mailer
 django-ses
 
 # Backbone
-backbone-tastypie
 django-tastypie
 -e git+https://github.com/PaulUithol/backbone-tastypie.git@master#egg=django-backbone-tastypie
-django-jstemplates
+django-jstemplate
 
 # Haystack
 -e git+https://github.com/toastdriven/django-haystack.git@master#egg=django-haystack
