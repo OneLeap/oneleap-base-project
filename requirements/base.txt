@@ -46,4 +46,5 @@ python-memcached
 # Compress assets
 #django-pipeline
 #django-versioned-static
-django-assets
+#django-assets
+django_compressor
