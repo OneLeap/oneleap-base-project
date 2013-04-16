@@ -42,3 +42,8 @@ django-stripe-payments
 
 # Caching
 python-memcached
+
+# Compress assets
+#django-pipeline
+#django-versioned-static
+django-assets

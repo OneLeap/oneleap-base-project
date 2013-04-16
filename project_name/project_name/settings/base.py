@@ -58,7 +58,7 @@ DATABASES = {
 
 ########## GENERAL CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#time-zone
-TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'UTC'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
 LANGUAGE_CODE = 'en-us'
@@ -185,6 +185,21 @@ DJANGO_APPS = (
 )
 
 THIRD_PARTY_APPS = (
+    # Authentication
+    'django_browserid',
+    'social_auth',
+    # api
+    'tastypie',
+    # our js api client
+    'backbone_tastypie',
+    # search
+    'haystack',
+    # client side templating in django templates
+    'jstemplate',
+    # store files on S3
+    'storages'
+    # Tagging
+    'taggit',
     # Database migration helpers:
     'south',
 )
